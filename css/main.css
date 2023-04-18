@@ -1,0 +1,176 @@
+@import url(./fonts.css);
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+
+  height: 100%;
+  margin: 0;
+
+  color: #fff;
+
+  text-align: center;
+}
+
+ul {
+  list-style: none;
+}
+.wrapper {
+  display: inline-block;
+  text-align: center;
+  
+
+  background: no-repeat url("/img/hero.png"), no-repeat bottom url("/img/bottom-pic.png") ;
+  background-color: #17191C;
+}
+
+.header {
+  display: inline-block;
+  width: 1140px;
+  height: 130px;
+  
+  vertical-align: top;
+  text-align: left;
+  margin-top: 25px;
+}
+
+.logo {
+  display: inline-block;
+}
+
+.menu, .menu__list, .menu__item, .contacts {
+  display: inline-block;
+}
+
+.menu {
+  margin-left: 195px;
+}
+.menu__list {
+  
+}
+.menu__link {
+  color: #fff;
+  text-decoration: none;
+  font-size: 14px;
+  margin-right: 54px;
+}
+.menu__link:hover {
+  color: #ff3d00;
+}
+.contacts {
+  float: right;
+}
+.contacts__phone {
+  font-size: 26px;
+  color: #fff;
+  text-decoration: none;
+  font-style: normal;
+  text-align: right;
+  
+}
+.contacts__info {
+  display: block;
+  text-align: right;
+  font-style: normal;
+  
+  color: #FF3D00;
+  font-size: 13px;
+}
+
+.content {
+ margin-top: 78px;
+}
+
+.preview {
+  display: inline-block;
+  width: 776px;
+}
+.preview__title {
+  color: #fff;
+  font-size: 72px;
+  font-weight: 800;
+  margin: 0;
+}
+
+.preview__desc {
+ display: inline-block;
+  font-size: 18px;
+
+ 
+}
+
+.button {
+  display: inline-block;
+  width: 195px;
+  height: 55px;
+  border-radius: 35px;
+  font-size: 14px;
+  font-weight: 700;
+  border: 1px solid #FF3D00;
+}
+
+.button:hover {
+  cursor: pointer;
+}
+.preview__button .button {
+  background-color: #FF3D00;
+  color: #fff;
+  margin-top: 20px;
+}
+
+/* Offers */
+.offers {
+  margin-top: 235px;
+  color: #666666;
+}
+.offers__list {
+  margin: 0;
+  display: inline-block;
+  /* width: 1140px; */
+  
+  
+  
+}
+.offer__item {
+  display:  inline-block;
+  width: 362px;
+  background-color: #fff;
+  border-radius: 5px; 
+  padding: 36px 29px;
+  text-align: left;
+}
+.offer__item:nth-child(2) {
+  margin: 0 27px;
+}
+.offer__header {
+  font-weight: 700;
+  color: #000;
+  font-size: 32px;
+}
+.offer__terms {
+  padding: 0;
+  display: inline-block;
+  
+  width: 100%;
+ 
+  font-size: 16px;
+  
+}
+.offer__term {
+  display: inline-block;
+  width: 49%;
+  
+}
+.offer__desc {
+  font-size: 14px;
+  font-weight: 400;
+}
+.offer__button .button {
+  background-color: #fff;
+  border: 1px solid #FF3D00;
+  color: #FF3D00;
+}
+.offer__button .button:hover {
+background-color: #FF3D00;
+color: #fff;
+}
