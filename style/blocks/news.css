@@ -1,0 +1,52 @@
+.news {
+    margin-top: 180px;
+  }
+
+  .news__list {
+    margin-top: 50px;
+    display: flex;
+  }
+  
+  .news__item {
+    width: 557px;
+    height: 394px;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .news__item:last-child {
+    margin-left: 25px;
+  }
+  .news__item--first {
+    background: url("../../img/camera.png");
+  }
+  
+  .news__item--second {
+    background: url("../../img/wedding.png");
+  }
+
+  .news__content {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding-left: 30px;
+  }
+  .news__item-date {
+    font-size: 14px;
+    line-height: 21px;
+  }
+  .news__item-header {
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: bold;
+    padding-top: 18px;
+  }
+  .news__item-desc {
+    font-size: 16px;
+    line-height: 21px;
+    padding-bottom: 30px;
+  }
+  .news__item-desc--first {
+    /* padding-bottom: 50px; */
+  }
