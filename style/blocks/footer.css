@@ -1,0 +1,46 @@
+.footer {
+    padding-bottom: 42px;
+    padding-top: 48px;
+    
+  }
+  
+  .footer__container { 
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .footer.border {
+    padding-top: 0;
+  }
+  .footer.border .container {
+    padding-top: 45px;
+    border-top: 2px solid rgba(255, 255, 255, .1);
+  }
+  
+  
+  .social__list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 70px;
+  }
+  
+  .social__item {
+    margin-right: 10px;
+  }
+  
+  .social__item:last-child {
+    margin-right: 0px;
+  }
+  
+  .contacts {
+    font-style: normal;
+  }
+  
+  .contacts__description {
+    color: #9a9a9a;
+    font-size: 11px;
+    line-height: 20px;
+    text-align: end;
+  }
