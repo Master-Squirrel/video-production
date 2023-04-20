@@ -76,13 +76,19 @@ img {
   flex-direction: column;
   
   background-color: #17191C;
+  
+}
+.wrapper--main {
+  background: url("../../img/hero.png") center top no-repeat;
+  background-color: #17191C;
 }
 .wrapper__content {
   flex: 1;
 }
 .wrapper__content--main {
   position: relative;
-  background: url("../../img/bottom-pic.png") center no-repeat;
+  background: url("../../img/bottom-pic.png") center no-repeat;  
+  background-position: 50% 100%;
 }
 
 .container {
