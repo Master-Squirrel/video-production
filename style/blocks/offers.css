@@ -1,9 +1,9 @@
 .offers {
-    margin-top: 235px;
+    margin-top: 240px;
 }
 
 .offers__list {
-    margin-top: 51px;
+    
     display: flex;
     justify-content: space-between;
 }
@@ -19,6 +19,7 @@
     padding-top: 36px;
     padding-right:  34px;
     padding-bottom: 100px;
+    padding-left: 22px;
 }
 
 .offer__content {
@@ -27,19 +28,19 @@
 
 }
 .offer__image {
-    padding-left: 27px;
+    
 }
 .offer__header {
     font-size: 32px;
     font-weight: 700;
     color: #000;
-    padding-left: 22px;
+    
 }
 
 .offer__terms {
     display: flex;
     margin-top: 20px;
-    margin-left: 20px;    
+     
 }
 .offer__term:last-child {
     margin-left: 70px;
@@ -56,16 +57,14 @@
     
 }
 
-.offer__desc {
-    margin-bottom: 24px;
-    /* color: #303030; */
+.offer__desc {    
+    
     font-size: 14px;
     line-height: 21px;
-    margin-left: 20px;
     margin-top: 20px;
 }
 .offer__button {
-    margin-left: 25px;
+    
     margin-top: 40px;
     
 }
