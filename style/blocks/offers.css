@@ -12,13 +12,13 @@
 
     width: calc(100%/3 - 18px);
     max-width: 362px;
-    max-height: 476px;
+    
     background: #fff;
     color: #303030;
     border-radius: 5px;
     padding-top: 36px;
     padding-right:  34px;
-    padding-bottom: 100px;
+    padding-bottom: 50px;
     padding-left: 22px;
 }
 
