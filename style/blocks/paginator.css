@@ -4,6 +4,16 @@
     height: 100px;
   }
   
+  .paginator--services {
+    margin-top: 17px;
+    height:auto;
+  }
+
+.paginator--services .paginator__link, .paginator__text {
+color: #000;
+font-weight: 700;
+}
+
   .paginator__text {
     display: inline-block;
     margin-right: 50px;
