@@ -16,6 +16,7 @@ font-weight: bold;
 
 .breadcrumbs__item::after {
 content: " / ";
+margin-right: 0.3em;
 }
 
 .breadcrumbs__item:last-child:after {
