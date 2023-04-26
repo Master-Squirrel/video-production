@@ -6,12 +6,18 @@
 .services__list {
   display: flex;
   flex-direction: column;
- padding-top: 97px;
+  padding-top: 97px;
+  margin-bottom: 50px;
 }
 
 .services__item {
-display: flex;
-margin-bottom: 50px;
+  display: flex;
+  margin-bottom: 50px;
+}
+
+.services__item:last-child {
+
+  margin-bottom: 0;
 }
 
 .services__content {
@@ -24,12 +30,14 @@ margin-bottom: 50px;
 .services__img {
   margin-right: 56px;
 }
+
 .services__header {
   font-size: 36px;
   color: #000;
   font-weight: 700;
   margin-bottom: 27px;
 }
+
 .services__desc {
   color: #303030;
   line-height: 27px;
