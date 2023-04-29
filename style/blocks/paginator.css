@@ -1,7 +1,7 @@
 .paginator {
     text-align: center;
     margin-top: 55px;
-    height: 100px;
+    
   }
   
   .paginator--services {
@@ -18,7 +18,7 @@ font-weight: 700;
   font-weight: 700;
   }
   .paginator--reviews {
-    margin-top: 70px;
+    margin-top: 50px;
   }
 
   .paginator__text {

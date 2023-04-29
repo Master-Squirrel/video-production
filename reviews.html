@@ -95,9 +95,7 @@
                 </div>
                 <h2 class="review__header">Съемка клипа.</h2>
                 <div class="review__text">
-                  Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько абзацев более менее
-                  осмысленного текста рыбы на русском языке, а начинающему оратору отточить навык публичных выступлений
-                  в домашних условиях. При создании генератора мы использовали небезизвестный универсальный код речей.
+                  Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько абзацев более менее осмысленного текста рыбы на русском языке, а начинающему оратору отточить навык публичных выступлений в домашних условиях. При создании генератора мы использовали небезизвестный универсальный код речей. 
                 </div>
                 <div class="review__date">Ноябрь 2019</div>
               </li>
@@ -174,54 +172,96 @@
               </ul>
             </div>
         </section>
+
+        <section class="discount">
+          <div class="container discount--container">
+            <div class="discount__content">
+              <h2 class="discount__header">
+                Скидка <span class="discount__percent">20%</span> на съемку мероприятий
+              </h2>
+
+            </div>
+          </div>
+        </section>
     </div>
 
-    <section class="discount">
-      <div class="container">
-        <h2 class="discount__header">
-          Скидка <span class="discount__percent">20%</span> на съемку мероприятий
-        </h2>
-      </div>
-    </section>
+
 
     <section class="reply">
       <div class="container">
 
-      <div class="reply__header">Оставьте отзыв</div>
-      <form action="" class="reply__form">
-        <div class="reply__form-string">
-          <input type="text" class="reply__form-field">
-          <input type="text" class="reply__form-field">
+        <div class="reply__header">Оставьте отзыв</div>
+        
+        <form action="" class="reply__form">
+          <div class="reply__form-string">
+
+            <input type="text" class="reply__form-field" placeholder="Игорь Петрович ">
+            <input type="text" class="reply__form-field" placeholder="Ссылка на профиль VK" >
         </div>
         <div class="reply__form-string">
-          <textare class="reply__form-review">
-            Напишите свой честный отзыв ;)
-          </textare>
-        </div>
-        <div class="reply__form-string">
-          <div class="reply__form-message">
-            Какими услугами компании пользуетесь?
+            <textarea class="reply__form-field reply__form-review" placeholder="Напишите свой честный отзыв ;)">
+
+          </textarea>
           </div>
-          <div class="reply__form-services">
-            <ul class="services-list">
-              <li class="service__item"></li>
-              <li class="service__item"></li>
-              <li class="service__item"></li>
-              <li class="service__item"></li>
-              <li class="service__item"></li>
-              <li class="service__item"></li>
-              <li class="service__item"></li>
-            </ul>
+          <div class="reply__form-string reply__form-string--controls">
+            <div class="reply__form-message">
+              Какими услугами компании пользуетесь?
+            </div>
+        
+              <ul class="services-list">
+                <li class="service__item">
+                  <label class="service__elem">
+                    <input type="checkbox" class="service__checkbox">
+                    <div class="tag service__tag">Съемки клипа</div>
+                  </label>
+                </li>
+                <li class="service__item">
+                  <label class="service__elem">
+                    <input type="checkbox" class="service__checkbox">
+                    <div class="tag service__tag">Съемки рекламы</div>
+                  </label>
+                </li>
+                <li class="service__item">
+                  <label class="service__elem">
+                    <input type="checkbox" class="service__checkbox">
+                    <div class="tag service__tag">Съемка свадьбы</div>
+                  </label>
+                </li>
+                <li class="service__item">
+                  <label class="service__elem">
+                    <input type="checkbox" class="service__checkbox">
+                    <div class="tag service__tag">Студийная съемка</div>
+                  </label>
+                </li>
+                <li class="service__item">
+                  <label class="service__elem">
+                    <input type="checkbox" class="service__checkbox">
+                    <div class="tag service__tag">Никакими</div>
+                  </label>
+                </li>
+                <li class="service__item">
+                  <label class="service__elem">
+                    <input type="checkbox" class="service__checkbox">
+                    <div class="tag service__tag">Видео клип</div>
+                  </label>
+                </li>
+                <li class="service__item">
+                  <label class="service__elem">
+                    <input type="checkbox" class="service__checkbox">
+                    <div class="tag service__tag">Другое</div>
+                  </label>
+                </li>
+              </ul>
+
           </div>
-        </div>
-        <div class="reply__form-string">
-          <button class="reply__form-button">Очистить</button>
-          <button class="reply__form-button reply__form-button--red">Отправить</button>
-        </div>
-      </form>
-    </div>
+          <div class="reply__form-string reply__form-string--buttons">
+            <button class="button button--form button--grey">Очистить</button>
+            <button class="button button--form">Отправить</button>
+          </div>
+        </form>
+      </div>
     </section>
-    
+
     </main>
   </div>
 
