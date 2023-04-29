@@ -1,0 +1,16 @@
+.reply {
+    background-color: #F4F5F5;
+
+    padding-top: 79px;
+}
+
+.reply__header {
+    font-size: 36px;
+    color: #202020;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+.reply__form {
+    margin-top: 56px;
+}

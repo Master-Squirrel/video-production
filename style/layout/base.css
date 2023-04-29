@@ -93,7 +93,7 @@ img {
   background: url("../../img/bottom-pic.png") center no-repeat;
   background-position: 50% 100%;
 }
-.wrapper__content--services {
+.wrapper__content--bg {
   background: url("../../img/top-line.png") center top no-repeat;
 }
 .container {
@@ -117,6 +117,9 @@ img {
   justify-content: center;
 }
 .container--services {
+  margin-top: 115px;
+}
+.container--reviews {
   margin-top: 115px;
 }
 .about--container {

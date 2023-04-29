@@ -13,6 +13,13 @@
 color: #000;
 font-weight: 700;
 }
+.paginator--reviews .paginator__link, .paginator__text {
+  color: #000;
+  font-weight: 700;
+  }
+  .paginator--reviews {
+    margin-top: 70px;
+  }
 
   .paginator__text {
     display: inline-block;
@@ -85,9 +92,7 @@ font-weight: 700;
     color: #000;
     margin-top: 20px;
   }
-  .paginator--reviews {
-    margin-top: 120px;
-  }
+
   .paginator--dark .paginator__link {
   color: #000;
   }

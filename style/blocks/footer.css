@@ -6,7 +6,10 @@
 .footer--services {
   margin-top: 0;
 }
-
+.footer--reviews{
+  background-color: #000;
+  margin-top: 0;
+}
 .footer__container {
 
   display: flex;
