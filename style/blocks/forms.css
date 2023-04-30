@@ -4,7 +4,7 @@
 }
 .reply__form-string {
     display: flex;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     margin-bottom: 22px;
 }
 
@@ -21,7 +21,9 @@
 }
 
 .reply__form-field {
-    width: 557px;
+    /* width: 557px; */
+    flex: 1;
+    margin-right: 28px;
 }
 .reply__form-review {
     display: block;
@@ -40,7 +42,7 @@
     display: flex;
     margin-bottom: 10px;
 }
-.services-list {
+.service {
 flex: 1;
 flex-wrap: wrap;
 display: flex;
@@ -60,10 +62,18 @@ display: flex;
 }
 .tag {
     color: #303030;
-    font-size: 13px;background-color: #E7E7E7;
+    font-size: 13px;
+    background-color: #E7E7E7;
     border-radius: 35px;
     padding: 9px 19px 10px 18px;
 }
+.tag--review {
+    background: #F2D4C9;
+    border-radius: 35px;
+    padding: 10px 25px;
+    margin-top: 5px;    
+}
+
 
 .reply__form-string--buttons {
     justify-content: flex-end;
