@@ -7,7 +7,10 @@
     /* justify-content: space-between; */
     margin-bottom: 22px;
 }
-
+.reply__form-string:last-child {
+    
+    margin-bottom: 0px;
+}
 .reply__form-field {
     border-radius: 5px;
     border: 1px solid #CCCCCC;
@@ -24,6 +27,9 @@
     /* width: 557px; */
     flex: 1;
     margin-right: 28px;
+}
+.reply__form-field:last-child {
+    margin-right: 0px;
 }
 .reply__form-review {
     display: block;
