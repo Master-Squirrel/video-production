@@ -23,7 +23,7 @@
     animation-delay: 0.1s;
     
 }
-.intro__wrapper::before {
+.intro::before {
 
     content: "";
     display: block;
@@ -31,7 +31,7 @@
     height: 643px;
     background: url(../../img/rec.png) center center no-repeat;
     position: absolute;
-    z-index: -10;
+    /* z-index: -10; */
 }
 
 .intro__logo {
@@ -40,3 +40,38 @@
     height: 147px;
 }
 
+.intro__wrapper {
+    animation: introAnimation 1s, introAnimation2 0.5s 2 ease 1s reverse forwards; 
+    
+}
+
+@keyframes introAnimation {
+    from {
+        transform: scale(0) ;
+        
+    }
+
+    to {
+        transform: scale(1);
+    }
+}
+
+@keyframes introAnimation2 {
+    from {
+        transform: rotate(0deg);
+        transform-origin: bottom center;
+    }
+
+    50% {
+        transform: rotate(45deg);
+    }
+
+    75% {
+        transform: rotate(-45deg);
+    }
+
+    to {
+        transform: rotate(0);
+        transform-origin: bottom center;
+    }
+}
