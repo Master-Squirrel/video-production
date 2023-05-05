@@ -59,22 +59,23 @@
 @keyframes introAnimation2 {
     from {
         transform: rotate(0deg);
-        transform-origin: bottom center;
+        transform-origin: 0 0;
     }
 
     25% {
         transform: rotate(45deg);
-        transform-origin: bottom center;
+        transform-origin: 0 0;
     }
 
     75% {
         transform: rotate(-45deg);
-        transform-origin: bottom center;
+     transform-origin: 0 0;
+     
     }
 
 
     to {
         transform: rotate(0);
-        transform-origin: bottom center;
-    }
+         transform-origin: 0 0;
+            }
 }
