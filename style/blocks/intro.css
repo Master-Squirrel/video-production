@@ -41,7 +41,7 @@
 }
 
 .intro__wrapper {
-    animation: introAnimation 1s, introAnimation2 0.5s 2 ease 1s reverse forwards; 
+    animation: introAnimation 1s, introAnimation2 2s ease 1s 1 alternate-reverse ; 
     
 }
 
@@ -62,13 +62,16 @@
         transform-origin: bottom center;
     }
 
-    50% {
+    25% {
         transform: rotate(45deg);
+        transform-origin: bottom center;
     }
 
     75% {
         transform: rotate(-45deg);
+        transform-origin: bottom center;
     }
+
 
     to {
         transform: rotate(0);
