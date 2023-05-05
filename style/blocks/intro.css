@@ -31,7 +31,7 @@
     height: 643px;
     background: url(../../img/rec.png) center center no-repeat;
     position: absolute;
-    /* z-index: -10; */
+  
 }
 
 .intro__logo {
@@ -78,4 +78,8 @@
         transform: rotate(0);
          transform-origin: 0 0;
             }
+}
+
+.button--intro {
+z-index: 10;
 }
