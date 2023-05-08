@@ -1,105 +1,113 @@
 .paginator {
-    text-align: center;
-    margin-top: 55px;
-    
-  }
-  
-  .paginator--services {
-    margin-top: 67px;
-    height:auto;
-  }
+  text-align: center;
+  margin-top: 55px;
 
-.paginator--services .paginator__link, .paginator__text {
-color: #000;
-font-weight: 700;
 }
-.paginator--reviews .paginator__link, .paginator__text {
+
+.paginator--services {
+  margin-top: 67px;
+  height: auto;
+}
+
+.paginator--services .paginator__link,
+.paginator__text {
   color: #000;
   font-weight: 700;
-  }
-  .paginator--reviews {
-    margin-top: 50px;
-  }
+}
 
-  .paginator__text {
-    display: inline-block;
-    margin-right: 50px;
-  }
-  
-  .paginator__list {
-    display: inline-block;
-  
-  }
-  
-  .paginator__item {
-    display: inline-block;
-    font-size: 16px;
-    line-height: 21px;
-    margin-right: 24px;
-    position: relative;
-    cursor: pointer;
-  }
-  
-  .paginator__item:last-child {
-    margin-right: 0px;
-  }
-  
-  .paginator__link {
-    display: inline-block;
-    color: #fff;
-    font-weight: bold;
-    z-index: 10;
-    position: relative;
-  }
-  
-  
-  
-  .paginator__link:hover {
-    color: #fff;
-    transition: color .3s;
-
-  }
-  
-  .paginator__link:before {
-    position: absolute;
-    display: inline-block;
-    
-    content: '';
-  
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    /* visibility: hidden; */
-    opacity: 0;
-    z-index: -1;
-    width: 32px;
-    height: 32px;
-    -moz-border-radius: 7.5px;
-    -webkit-border-radius: 7.5px;
-    border-radius: 15.5px;
-    background-color: #fff;
-  }
-  
-  .paginator__link:hover:before {
-    /* visibility: visible; */
-    opacity: 1;
-    transition: opacity .3s;
-    background-color: #ff3300;
-  }
-  
-  
-  .paginator--dark {
-    color: #000;
-    margin-top: 20px;
-  }
-
-  .paginator--dark .paginator__link {
+.paginator--reviews .paginator__link,
+.paginator__text {
   color: #000;
-  }
-  .paginator--dark .paginator__link:hover {
-    color: #fff;
-  }
-  .paginator--dark .paginator__link:before {
-    background-color: #F5170E;
-    
-  }
+  font-weight: 700;
+}
+
+.paginator--reviews {
+  margin-top: 50px;
+}
+
+.paginator__text {
+  display: inline-block;
+  margin-right: 50px;
+}
+
+.paginator__list {
+  display: inline-block;
+
+}
+
+.paginator__item {
+  display: inline-block;
+  font-size: 16px;
+  line-height: 21px;
+  margin-right: 24px;
+  position: relative;
+  cursor: pointer;
+}
+
+.paginator__item:last-child {
+  margin-right: 0px;
+}
+
+.paginator__link {
+  display: inline-block;
+  color: #fff;
+  font-weight: bold;
+  z-index: 10;
+  position: relative;
+}
+
+
+
+.paginator__link:hover {
+  color: #fff;
+  transition: color .3s;
+
+}
+
+.paginator__link:before {
+  position: absolute;
+  display: inline-block;
+
+  content: '';
+
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  /* visibility: hidden; */
+  opacity: 0;
+  z-index: -1;
+  width: 32px;
+  height: 32px;
+  -moz-border-radius: 7.5px;
+  -webkit-border-radius: 7.5px;
+  border-radius: 15.5px;
+  background-color: #fff;
+}
+
+.paginator__link:hover:before {
+  /* visibility: visible; */
+  opacity: 1;
+  transition: opacity .3s;
+  background-color: #ff3300;
+}
+
+.paginator--dark {
+  color: #000;
+  margin-top: 20px;
+}
+
+.paginator--dark .paginator__link {
+  color: #000;
+}
+
+.paginator--dark .paginator__link:hover {
+  color: #fff;
+}
+
+.paginator--dark .paginator__link:before {
+  background-color: #F5170E;
+}
+
+.paginator__text--dark {
+  color: #fff;
+}
