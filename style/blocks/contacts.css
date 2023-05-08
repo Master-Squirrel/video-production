@@ -36,6 +36,35 @@
     align-items: flex-end;
   }
 
+.contacts__wrapper:hover .sheduler {
+    display: block;
+}
+
   .sheduler {
     display: none;
+    position: absolute;
+    background: #FFFFFF;
+    opacity: 0.8;
+    border-radius: 5px;
+    padding: 22px 19px 15px 19px;
+    color: #1E1F20;
+    top: 30px;
+  }
+  .sheduler__days {
+    font-weight: 700;
+  }
+  .sheduler__lunch {
+    font-weight: 600;
+  }
+
+  .sheduler::before {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background: #FFFFFF;
+    top: -10px;
+    left: 60%;
+    transform: rotate(45deg);
   }
